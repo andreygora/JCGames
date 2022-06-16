@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DE121111"
+    tools:context=".MainActivity">
+
+    <!-- Choose a game -->
+
+    <TextView
+        android:id="@+id/choose_a_ga"
+        android:layout_width="479dp"
+        android:layout_height="342dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Chose a\n Game"
+        android:textColor="#F2C4C4"
+        android:textSize="48dp" />
+
+    <Button
+        android:layout_width="151dp"
+        android:layout_height="40dp"
+        android:background="@drawable/round_button"
+        android:clipToOutline="true"
+        android:text="Tic Tac Toe"
+        android:textColor="#F2C4C4"
+        android:textSize="13dp"
+        android:layout_marginTop="400dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button1"
+        />
+
+    <Button
+        android:layout_width="151dp"
+        android:layout_height="40dp"
+        android:background="@drawable/round_button"
+        android:clipToOutline="true"
+        android:text="Ping Pong"
+        android:textColor="#F2C4C4"
+        android:textSize="13dp"
+        android:layout_marginTop="600dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button2"
+        />
+    <Button
+        android:layout_marginTop="500dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="151dp"
+        android:layout_height="40dp"
+        android:background="@drawable/round_button"
+        android:text="Snake"
+        android:textColor="#F2C4C4"
+        android:textSize="13dp"
+        android:id="@+id/button3"
+        />
+
+
+</RelativeLayout>
